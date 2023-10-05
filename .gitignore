@@ -1,0 +1,40 @@
+# Archivos y directorios generados por Django
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Directorios de entorno virtual
+myenv/
+
+# Archivo de configuración local de Django
+*.env
+
+# Directorio de archivos estáticos generados
+/static/
+
+# Directorio de archivos de medios generados
+/media/
+
+# Archivo de registro de Django
+logs/
+
+# Directorio de archivos de migraciones de Django
+/migrations/
+
+# Directorio de archivos de datos de prueba
+/fixtures/
+
+# Archivo de configuración local para el IDE (por ejemplo, PyCharm)
+.idea/
+
+# Archivo de configuración local para VSCode
+.vscode/
+
+# Archivo de dependencias de Python
+requirements.txt
+
+# Archivo de registro
+*.log
