@@ -19,6 +19,6 @@ class Post(models.Model):
 
     class Meta:
         ordering = ('-created_at',)
-        
+    
     def created_at_formatted(self):
-        return timesince(self.created_at)
+       return timesince(self.created_at)
